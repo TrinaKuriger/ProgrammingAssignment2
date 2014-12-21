@@ -1,12 +1,13 @@
-## jkuriger
-## Intro to R Programming - Coursera
-## Assignment 2
+## Intro to R Programming - Coursera - Assignment 2
+
+## cachematrix contains two funtions which work together to take in a matrix and 
+## compute and store the inverse of the matrix along with the original matrix in
+## an object.
 
 
 ## makeCacheMatrix() takes in a matrix and creates an object that stores the value of 
 ## that matrix and can store an additional value (in our case and inverse matrix) 
 ## that is associated with that matrix
-##
 
 makeCacheMatrix <- function(x = matrix()) {
   
